@@ -1,6 +1,9 @@
 from selenium import webdriver
+from pyvirtualdisplay import Display
 
 def before_all(context):
+    display = Display(visible=0, size=(1024, 768))
+    display.start()
     # desired_capabilities = webdriver.DesiredCapabilities.FIREFOX
     # desired_capabilities['version'] = '12'
     # desired_capabilities['platform'] = 'WINDOWS'

@@ -4,10 +4,13 @@ from pyvirtualdisplay import Display
 
 
 def driver(type="local"):
-    # display = Display(visible=0, size=(1024, 768))
-    # display.start()
-    if type == 'local':
-        return webdriver.Firefox()
+     display = Display(visible=0, size=(1024, 768))
+     display.start()
+     return webdriver.Firefox()
+
+got    # if type == 'local':
+    # elif
+
 
 
 def find(self, context):

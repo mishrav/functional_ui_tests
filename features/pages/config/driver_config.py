@@ -8,7 +8,7 @@ def driver(type="local"):
      display.start()
      return webdriver.Firefox()
 
-got    # if type == 'local':
+    # if type == 'local':
     # elif
 
 
